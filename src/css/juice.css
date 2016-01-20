@@ -1,0 +1,85 @@
+.fruit_item
+{
+	font-family: Verdana;
+	list-style: none;
+    cursor:pointer;
+    margin:1px;
+    float:left;
+    width:180px;
+    background-color:#eeeeee;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:5px;
+    height: 40px;
+}
+.fruit_item info,.fruit_item op
+{
+    display: block;
+    float: left;
+}
+.fruit_item info
+{
+	width: 170px;
+}
+.fruit_item name, .fruit_item nameen
+{
+	display: block;
+}
+.fruit_item name
+{
+	font-size: 14px;
+}
+.fruit_item nameen
+{
+	font-size: 12px;
+}
+.fruit_item prices
+{
+	font-size: 9px;
+    display:none;
+}
+.fruit_filter div, .fruit_filter .selected
+{
+    cursor:pointer;
+    margin:1px;
+    float:left;
+    font-size:12px;
+    padding:5px;
+    background-color:#eeeeee;
+    text-align:center;
+}
+.fruit_item:hover, .fruit_filter div:hover
+{
+    background-color:#cccccc;
+}
+.fruit_item:hover, .fruit_filter div:hover
+{
+    background-color:#cccccc;
+}
+.fruit_item_select, .fruit_filter .selected
+{
+    background-color:#555555;
+    color:#eeeeee;
+}
+.fruit_item_select:hover
+{
+    background-color:black;
+}
+.fruit_item op
+{
+	display:none;
+	position: relative;
+	left: 0;
+	font-size: 9px;
+    width: 10px;
+    height: 50px;
+}
+.fruit_item:hover op, .fruit_item:hover prices
+{
+    display: block;
+}
+.fruit_item op o
+{
+    display: block;
+    border: solid 1px gray;
+}

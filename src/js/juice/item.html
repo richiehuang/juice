@@ -1,0 +1,15 @@
+<%
+var i = data.i;
+var item = data.item;
+%>
+<li class="fruit_item<%=(item.IsSelected ? " fruit_item_select" : "")%>" seq="<%=i%>">
+	<info>
+		<name><%=item.Name%></name>
+		<nameen><%=item.NameEn%></nameen>
+		<prices>
+			<price>Price:<%=item.Price%></price>
+			<price>Member Price:<%=item.MemberPrice%></price>
+		</prices>
+	</info>
+	<op><o>0</o><o>-</o><o>+</o></op>
+</li>
